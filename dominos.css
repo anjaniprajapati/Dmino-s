@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    background-color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+   .topnav {
+    overflow: hidden;
+    background-color: blue;
+  }
+  .icons{
+    position: absolute;
+    right:19rem;
+    font-size: 1.5rem;
+    top: 0.5rem;
+    text-align: center;
+    height: 1.9rem;
+    width: 1.9rem;
+    border-radius: 50%;
+    color:rgb(57, 27, 192);
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: aliceblue;
+  }
+  .photo{
+    height: 37px;
+    width: 37px;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 80px;
+}
+.topnav img{
+    float: right;
+}
+  
+  .topnav a {
+    float: right;
+    color:white;
+    font-weight: bold;
+    padding:14px 15px;
+    text-decoration: none;
+    font-size: 17px; 
+  }
+  
+  .topnav a:hover,.icons:hover {
+    color: white; 
+    background-color:rgb(41, 126, 175);
+ 
+   } 
+  .active{
+    background-color:rgb(41, 126, 175);
+
+  } 
+  .photo1{
+      float:right;
+      width: 52%;
+  }
+  .photo2{
+    float:right;
+    width: 52%;
+    margin-top: 8px;
+  }
+  .photo3{
+      margin-top: 5%;
+      margin-left: 5%;
+    width: 23%;
+    
+  }
+    .p{
+        margin-left: 5%;
+
+    }
+    
+    .p1{
+        margin-top: 2%;
+        width: 35%;
+        height: 2rem;
+        border: 1.7px ridge lightblue
+    
+    }
+    .p2{
+        border: 1.7px ridge lightblue 
+      
+    }
+    .pizza{
+        margin-left: 20%;
+
+    }
+    .pizza_take{
+        margin-top: -22rem;
+        margin-left: 0%;
+        height: 17rem;
+        width: 15%;
+    }
+    
+    .ofer{
+        color:rgb(76, 76, 82);
+
+
+    }
+    .offers{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+     .locate{
+     margin-bottom: 2rem;
+        width: 12rem;
+        height: 7rem;
+        border: 1.7px dotted rgb(151, 151, 151)
+
+    } 
+    
+    .bgcolor {
+      display: flex;
+        /* justify-content: space-evenly;
+        flex-direction: column; */
+        /* overflow: hidden; */
+        background-color: rgb(39, 39, 41);
+        text-decoration: none;
+        color:white; 
+        padding: 2rem;
+        /* border: 4px solid yellow; */
+      }
+      .img4{
+        width: 15rem;
+        margin-bottom: 2rem;
+    }
+     .Disclaimer1{
+         text-decoration: none;
+         color:#64748b;
+         padding: 0.5rem;
+         
+     }
+      .bgcolor1 {
+        overflow: hidden;
+        background-color: rgb(18, 18, 19);
+        text-align: center;
+        text-decoration: none;
+        color: #64748b;
+        font-size: 17px; 
+      }
+      .app{
+        margin-left: 20rem;
+        color: #64748b;
+      }
+      .gogal_ply{
+        width: 9rem;
+        height: 2em;
+      }
+      .gogal_ply1{
+        display: flex;
+        /* jus */
+        gap: 2rem;
+
+      }
+
+      
